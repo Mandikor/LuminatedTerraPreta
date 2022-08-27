@@ -1,0 +1,17 @@
+{
+  "type": "content",
+  "modid": "ltp",
+  "name": "Luminated Terra Preta",
+  "description": "Luminated Terra Preta - with particles, glow effect and new texture.",
+  "authors": ["Mandikor"],
+  "contributors": ["Craluminum2413","dasPrinzip"],
+  "website": "",
+  "version": "1.0.1",
+  "dependencies": {
+    "game": "1.16.5",
+    "survival": "1.16.5"
+  },
+  "side": "universal",
+  "requiredOnClient": false,
+  "requiredOnServer": false
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "file": "game:blocktypes/soil/soil.json",
+    "side": "server",
+    "op": "add",
+    "path": "/particlePropertiesByType",
+    "value": {
+      "*-high-*": [
+        {
+          "hsvaColor": [
+            { "avg": 0, "var": 0 },
+            { "avg": 0, "var": 0 },
+            { "avg": 70, "var": 30 },
+            { "avg": 220, "var": 50 }
+          ],
+          "opacityEvolve": { "transform": "quadratic", "factor": -16 },
+          "gravityEffect": { "avg": -0.005, "var": 0 },
+          "posOffset": [
+            { "avg": 0, "var": 0.2 },
+            { "avg": -0.4, "var": 0 },
+            { "avg": 0, "var": 0.2 }
+          ],
+          "velocity": [
+            { "avg": 0, "var": 0.05 },
+            { "avg": 0.1, "var": 0.05 },
+            { "avg": 0, "var": 0.05 }
+          ],
+          "quantity": { "avg": 0.08 },
+          "terrainCollision": false,
+          "size": { "avg": 0.4, "var": 0.1 },
+          "sizeEvolve": { "transform": "linear", "factor": 1.5 },
+          "particleModel": "Quad",
+          "lifeLength": { "avg": 5, "var": 0.5 },
+          "vertexFlags": 255
+        }
+      ]
+    }
+  },
+  {
+    "file": "game:blocktypes/soil/soil.json",
+    "side": "server",
+    "op": "add",
+    "path": "/vertexFlagsByType",
+    "value": {
+          "*-high-*": { "glowLevel": 128 }
+    }
+  }
+]
